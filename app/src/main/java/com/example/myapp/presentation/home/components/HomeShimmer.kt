@@ -24,7 +24,7 @@ fun HomeShimmer() {
         Spacer(modifier = Modifier.height(10.dp))
 
         Row(
-            modifier = Modifier.padding(horizontal = 12.dp)
+            modifier = Modifier.padding(horizontal = 12.dp, vertical = 12.dp)
         ) {
             repeat(5) {
                 Box(
